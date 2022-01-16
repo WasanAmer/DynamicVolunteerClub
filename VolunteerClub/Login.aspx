@@ -36,7 +36,7 @@
                 <!-- Login Title -->
                 <div class="block-header">
                     <div class="header-section">
-                        <h1 class="text-center">Welcome to VolunteerClub<br><small>Please Login or Register</small></h1>
+                        <h1 class="text-center">Welcome to Volunteer Club<br><small>Please Login or Register</small></h1>
                     </div>
                 </div>
                 <!-- END Login Title -->
@@ -47,16 +47,22 @@
 	<form action="index.html" method="post" id="form-login" class="form-horizontal">
 		<div class="form-group">
 			<!-- Social Login -->
+
+
+
+
+
+
 			<!-- END Social Login -->
 		</div>
 		<div class="form-group">
 			<div class="col-xs-12">
-				<input type="text" id="login-email" name="login-email" class="form-control input-lg" placeholder="Email">
+				<input type="text" id="login-email" name="login-email" class="form-control input-lg" placeholder="Email" required>
 			</div>
 		</div>
 		<div class="form-group">
 			<div class="col-xs-12">
-				<input type="password" id="login-password" name="login-password" class="form-control input-lg" placeholder="Password">
+				<input type="password" id="login-password" name="login-password" class="form-control input-lg" placeholder="Password" required>
 
 				<!--
 				Hidden checkbox. Its checked property will be toggled every time the remember me (#btn-remember) button is clicked (js code at the bottom)
@@ -67,13 +73,10 @@
 		</div>
 		<div class="form-group">
 			<div class="col-xs-8">
-				<div class="btn-group">
-					<button type="button" class="btn btn-sm btn-default disabled">Remember me?</button>
-					<button type="button" class="btn btn-sm btn-default" data-toggle="button" id="btn-remember"><i class="fa fa-check"></i></button>
-				</div>
+				
 			</div>
 			<div class="col-xs-4 text-right">
-				<button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-angle-right"></i> Login</button>
+				<button type="submit" class="btn btn-sm btn-primary"><a href="organization.aspx"><i class="fa fa-angle-right"></i> Login</button></a>
 			</div>
 		</div>
 		<div class="form-group">
@@ -83,7 +86,7 @@
 		</div>
 	</form>
 	<!-- END Login Form -->
-
+                
 
                
 
@@ -93,6 +96,7 @@
             </div>
             <!-- END Page Content -->
         </div>
+
         <!-- END Login Container -->
 
      <!-- Include Jquery library from Google's CDN but if something goes wrong get Jquery from local file (Remove 'http:' if you have SSL) -->
@@ -105,41 +109,11 @@
     <script src="js/orgJS/main.js"></script>
 
         <!-- Javascript code only for this page -->
-        <script>
-            $(function () {
-                /* Save buttons (remember me and terms) and hidden checkboxes in variables */
-                var checkR = $('#login-remember'),
-                    checkT = $('#register-terms'),
-                    btnR = $('#btn-remember'),
-                    btnT = $('#btn-terms');
+      
 
-                // Add the 'active' class to button if their checkbox has the property 'checked'
-                if (checkR.prop('checked'))
-                    btnR.addClass('active');
-                if (checkT.prop('checked'))
-                    btnT.addClass('active');
-
-                // Toggle 'checked' property of hidden checkboxes when buttons are clicked
-                btnR.on('click', function () {
-                    checkR.prop('checked', !checkR.prop('checked'));
-                });
-                btnT.on('click', function () {
-                    checkT.prop('checked', !checkT.prop('checked'));
-                });
-
-                /* Login & Register show-hide */
-                var formLogin = $('#form-login'),
-                    formRegister = $('#form-register');
-
-                $('#link-login').click(function () {
-                    formLogin.slideUp(250);
-                    formRegister.slideDown(250);
-                });
-                $('#link-register').click(function () {
-                    formRegister.slideUp(250);
-                    formLogin.slideDown(250);
-                });
-            });
-        </script>
+   
 
 </asp:Content>
+
+
+

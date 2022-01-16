@@ -15,6 +15,8 @@
         <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
     <link href="css/orgCSS/themes.css" rel="stylesheet" />
         <!-- END Stylesheets -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 
         <!-- Modernizr (Browser feature detection library) & Respond.js (Enable responsive CSS code on browsers that don't support it, eg IE8) -->
     <script src="js/orgJS/vendor/modernizr-respond.min.js"></script>
@@ -37,10 +39,34 @@
                         </a>
                     </div>
                     <ul class="breadcrumb breadcrumb-top">
-                        <li><a href="">Opportunites</a></li>
+
+                         <div class="container" float="right">
+    <br/>
+	<div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <form class="card card-sm">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col-auto">
+                                        <i class="fas fa-search h4 text-body"></i>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col">
+                                        <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Finf an opportunity you would like to volunteer for!">
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col-auto">
+                                        <button class="btn btn-lg btn-warning" type="submit">Search</button>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </form>
+                        </div>
+                        <!--end of col-->
+                    </div>
+</div>
                     </ul>
                     <!-- END Pricing Tables Header -->
-
+                   
                     <!-- PT On the Grid Block -->
                     <div class="block">
                         <!-- PT On the Grid Title -->
@@ -198,7 +224,9 @@
     <!-- Include Jquery library from Google's CDN but if something goes wrong get Jquery from local file (Remove 'http:' if you have SSL) -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>!window.jQuery && document.write(decodeURI('%3Cscript src="js/orgJS/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'));</script>
-
+        
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- Bootstrap.js, Jquery plugins and custom Javascript code -->
     <script src="js/orgJS/vendor/bootstrap.min.js"></script>
     <script src="js/orgJS/plugins.js"></script>

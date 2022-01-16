@@ -26,248 +26,77 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-     <div class="header-fixed-top">
+       <div class="header-fixed-top">
+    
+        <div id="page-container">
+
+           
+             <div id="fx-container" class="fx-opacity">
+               
+                <div class="col-md-2">
+                    <div class="sidebar-left-scroll">
+                        <!-- Sidebar Navigation -->
+                        <ul class="sidebar-nav">
+                            <li>
+                                <h2 class="sidebar-header">Welcome</h2>
+                            </li>
+                            <li>
+                                <a href="Volunteer.aspx"><i class="fa fa-coffee"></i>Dashboard</a>
+                            </li>
+                            <li>
+                                <h2 class="sidebar-header">User Interface</h2>
+                            </li>
+                            <li>
+                                <a href="RequestCenter.aspx" class="menu-link"><i class="fa fa-share"></i>Requests</a>
+                                
+                            </li>
+                            <li>
+                                <a href="#" class="menu-link"><i class="fa fa-th"></i>Notes</a>
+                              
+                            </li>
+                           
+                           
+                            <li>
+                                <h2 class="sidebar-header">Extras</h2>
+                            </li>
+                            
+                
+                            <li>
+                                <a href="Calender.aspx" class="menu-link"><i class="gi gi-charts"></i>Calender</a>
+                               
+                            </li>
+                          
+                            <li>
+                                <a href="#"><i class="fa fa-clock-o"></i>Timeline</a>
+                            </li>
+                            
+                            <li>
+                                <a href="RequestCenter.aspx" class=" active"><i class="fa fa-envelope-o"></i>Message Center</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-link"><i class="fa fa-gear"></i>Settings</a>
+                                
+                            </li>
+                            
+                            <li>
+                                <a href="#"><i class="fa fa-power-off"></i>Logout</a>
+                            </li>
+                            
+                        </ul>
+                        <!-- END Sidebar Navigation -->
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+               
+ <div class="header-fixed-top">
         <!-- Left Sidebar -->
         <!-- In the PHP version you can set the following options from the config file -->
-        <!-- If you add the class .enable-hover, then a small portion of left sidebar will be visible and it can be opened with a mouse hover (> 1200px) (may affect website performance) -->
-        <div id="sidebar-left" class="enable-hover">
-            <!-- Sidebar Content -->
-            <div class="sidebar-content">
-                <!-- Search Form -->
-                <form action="page_ready_search_results.html" method="post" class="sidebar-search">
-                    <input type="text" id="sidebar-search-term" name="sidebar-search-term" placeholder="Search..">
-                </form>
-                <!-- END Search Form -->
-
-                <!-- Wrapper for scrolling functionality -->
-                <div class="sidebar-left-scroll">
-                    <!-- Sidebar Navigation -->
-                    <ul class="sidebar-nav">
-                        <li>
-                            <h2 class="sidebar-header">Welcome</h2>
-                        </li>
-                        <li>
-                            <a href="./volunteer.html"><i class="fa fa-coffee"></i>Dashboard</a>
-                        </li>
-                    
-                        <li>
-                            <a href="#" class="menu-link"><i class="fa fa-th"></i>Tables</a>
-                            <ul>
-                                <li>
-                                    <a href="page_tables_styles.html">Styles</a>
-                                </li>
-                                <li>
-                                    <a href="page_tables_datatables.html">Datatables</a>
-                                </li>
-                                <li>
-                                    <a href="page_tables_editable.html">Editable</a>
-                                </li>
-                            </ul>
-                        </li>
-                       
-                        <li>
-                            <a href="#" class="menu-link"><i class="fa fa-gift"></i>Icon Packs</a>
-                            <ul>
-                                <li>
-                                    <a href="page_icons_fontawesome.html">Font Awesome</a>
-                                </li>
-                                <li>
-                                    <a href="page_icons_glyphicons_pro.html">Glyphicons Pro</a>
-                                </li>
-                            </ul>
-                        </li>
-                     
-                        <li>
-                            <a href="#" class="menu-link"><i class="fa fa-gear"></i>Components</a>
-                            <ul>
-                                <li>
-                                    <a href="page_comp_animations.html">Animations</a>
-                                </li>
-                                <li>
-                                    <a href="page_comp_carousel.html">Carousel</a>
-                                </li>
-                                <li>
-                                    <a href="page_comp_gallery.html">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="page_comp_calendar.html">Calendar</a>
-                                </li>
-                                <li>
-                                    <a href="page_comp_charts.html">Charts</a>
-                                </li>
-                                <li>
-                                    <a href="page_comp_syntax_highlighting.html">Syntax Highlighting</a>
-                                </li>
-                                <li>
-                                    <a href="page_comp_maps.html">Maps</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="menu-link"><i class="fa fa-file"></i>Pages</a>
-                            <ul>
-                                
-                              
-                                <li>
-                                    <a href="page_ready_search_results.html">Search Results</a>
-                                </li>
-                                
-                                <li>
-                                    <a href="page_ready_faq.html">FAQ</a>
-                                </li>
-                                <li>
-                                    <a href="page_ready_invoice.html">Invoice</a>
-                                </li>
-                                <li>
-                                    <a href="page_ready_article.html">Article</a>
-                                </li>
-                                <li>
-                                    <a href="page_ready_forum.html">Forum</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="menu-link"><i class="gi gi-tint"></i>Popular App</a>
-                            <ul>
-                                <li>
-                                    <a href="#">Canva</a>
-                                </li>
-                                <li>
-                                    <a href="#">Miro</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Link</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Link 2</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="submenu-link">Submenu 2</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Link</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Link</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h2 class="sidebar-header">Special</h2>
-                        </li>
-                        <li>
-                            <a href="page_special_timeline.html"><i class="fa fa-clock-o"></i>Timeline</a>
-                        </li>
-                        <li>
-                            <a href="page_special_user_profile.html" class=" active"><i class="fa fa-pencil-square"></i>User Profile</a>
-                        </li>
-                        <li>
-                            <a href="page_special_message_center.html"><i class="fa fa-envelope-o"></i>Message Center</a>
-                        </li>
-                        <li>
-                            <a href="page_special_login.html"><i class="fa fa-power-off"></i>Login &amp; Register</a>
-                        </li>
-                        <li>
-                            <a href="page_special_landing.html"><i class="fa fa-plane"></i>Landing Page</a>
-                        </li>
-                    </ul>
-                    <!-- END Sidebar Navigation -->
-                </div>
-                <!-- END Wrapper for scrolling functionality -->
-            </div>
-            <!-- END Sidebar Content -->
-        </div>
-        <!-- END Left Sidebar -->
+       
 
         <!-- Right Sidebar -->
         <!-- In the PHP version you can set the following options from the config file -->
-        <!-- If you add the class .enable-hover, then a small portion of right sidebar will be visible and it can be opened with a mouse hover (> 1200px) (may affect website performance) -->
-        <div id="sidebar-right">
-            <!-- Sidebar Content -->
-            <div class="sidebar-content">
-                <!-- User Info -->
-                <div class="user-info">
-                    <div class="user-details"><a href="page_special_user_profile.html">pixelcave</a><br><em>Web Designer</em></div>
-                </div>
-                <!-- END User Info -->
-
-                <!-- Wrapper for scrolling functionality -->
-                <div class="sidebar-right-scroll">
-                  
-
-                    <!-- User Menu -->
-                    <ul class="sidebar-nav">
-                        <li>
-                            <h2 class="sidebar-header">Explore</h2>
-                        </li>
-                        <li>
-                            <a href="page_special_timeline.html"><i class="fa fa-clock-o"></i> Updates</a>
-                        </li>
-                        <li>
-                            <a href="page_special_user_profile.html"><i class="fa fa-pencil-square"></i> Profile</a>
-                        </li>
-                        <li>
-                            <a href="page_special_message_center.html"><i class="fa fa-envelope-o"></i> Messages</a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)"><i class="fa fa-cog"></i> Settings</a>
-                        </li>
-                        <li>
-                            <a href="page_special_login.html"><i class="fa fa-power-off"></i> Logout</a>
-                        </li>
-                    </ul>
-                    <!-- END User Menu -->
-
-                    <!-- Notifications -->
-                    <div class="sidebar-section">
-                        <h2 class="sidebar-header">Notifications</h2>
-                        <div class="alert alert-success alert-dismissable">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <small><em>2 hours ago</em></small><br>
-                            PHP version updated successfully on <a href="javascript:void(0)">Server #5</a>
-                        </div>
-                        <div class="alert alert-danger alert-dismissable">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <small><em>3 hours ago</em></small><br>
-                            <a href="javascript:void(0)">Game Server</a> crashed but restored!
-                        </div>
-                        <div class="alert alert-warning alert-dismissable">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <small><em>5 hours ago</em></small><br>
-                            <a href="javascript:void(0)">FTP Server</a> went down for maintenance!
-                        </div>
-                    </div>
-                    <!-- END Notifications -->
-
-                    <!-- Messages -->
-                    <div class="sidebar-section">
-                        <h2 class="sidebar-header">Messages</h2>
-                        <div class="alert alert-info">
-                            <small><a href="page_special_user_profile.html">Claire</a>, 2 minutes ago</small><br>
-                            Hi John, I just wanted to let you know that.. <a href="page_special_message_center.html">more</a>
-                        </div>
-                        <div class="alert alert-info">
-                            <small><a href="page_special_user_profile.html">Michael</a>, 5 minutes ago</small><br>
-                            The project is moving along just fine and we.. <a href="page_special_message_center.html">more</a>
-                        </div>
-                    </div>
-                    <!-- END Messages -->
-                </div>
-                <!-- END Wrapper for scrolling functionality -->
-            </div>
-            <!-- END Sidebar Content -->
-        </div>
-        <!-- END Right Sidebar -->
+       
 
         <!-- Page Container -->
         <!-- In the PHP version you can set the following options from the config file -->
@@ -306,7 +135,7 @@
                                     <div class="col-xs-4">
                                         <a href="javascript:void(0)" class="header-link">
                                             <h1 class="animation-pullDown">
-                                                <strong>20</strong><br><small>Tasks</small>
+                                                <strong>20</strong><br><small>My Tasks</small>
                                             </h1>
                                         </a>
                                     </div>
@@ -383,7 +212,8 @@
                                                 </a>
                                                 <div class="media-body">
                                                     <h6><span class="label label-default"><i class="fa fa-clock-o"></i> 1 hour ago</span></h6>
-                                                    <p class="remove-margin">Check them out: <br><a href="img/placeholders/image_720x450_dark.png" data-toggle="lightbox-image"><img src="img/placeholders/image_160x120_dark.png" alt="demo"></a><a href="img/placeholders/image_720x450_dark.png" data-toggle="lightbox-image"><img src="img/placeholders/image_160x120_dark.png" alt="demo"></a></p>
+                                                    <p class="remove-margin">Check them out: <br>
+                                                   
                                                     <p>
                                                         <a href="javascript:void(0)" class="btn btn-xs btn-success" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-up"></i> 1</a>
                                                         <a href="javascript:void(0)" class="btn btn-xs btn-danger" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-down"></i></a>
@@ -523,5 +353,130 @@
     <script src="js/orgJS/plugins.js"></script>
     <script src="js/orgJS/main.js"></script>
     </div>
+                
+                <!-- END Page Content -->
+
+                <!-- Remember to include excanvas for IE8 chart support -->
+                <!--[if IE 8]><script src="js/helpers/excanvas.min.js"></script><![endif]-->
+
+               
+            </div>
+        
+                    </div>
+            <!-- END FX Container -->
+        <!-- END Page Container -->
+    </div>
+        <!-- Scroll to top link, check main.js - scrollToTop() -->
+        <a href="javascript:void(0)" id="to-top"><i class="fa fa-angle-up"></i></a>
+
+       
+     <!-- Include Jquery library from Google's CDN but if something goes wrong get Jquery from local file (Remove 'http:' if you have SSL) -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(decodeURI('%3Cscript src="js/orgJS/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'));</script>
+
+        <!-- Bootstrap.js, Jquery plugins and custom Javascript code -->
+    <script src="js/orgJS/vendor/bootstrap.min.js"></script>
+    <script src="js/orgJS/plugins.js"></script>
+    <script src="js/orgJS/main.js"></script>
+
+        <!-- Javascript code only for this page -->
+        <script>
+            $(function () {
+                // Set up timeline scrolling functionality
+                $('.timeline-con').slimScroll({ height: 565, color: '#000000', size: '3px', touchScrollStep: 100, distance: '0' });
+                $('.timeline').css('min-height', '565px');
+
+                // Demo status updates and timeline functionality
+                var statusUpdate = $('#status-update');
+                var statusUpdateVal = '';
+
+                $('#accept-request').click(function () {
+                    $(this).replaceWith('<span class="label label-success">Awesome, you became friends!');
+                });
+
+                $('#status-update-btn').click(function () {
+                    statusUpdateVal = statusUpdate.val();
+
+                    if (statusUpdateVal) {
+                        $('.timeline-con').slimScroll({ scrollTo: '0px' });
+
+                        $('.timeline').prepend('<li class="animation-pullDown">' +
+                            '<div class="timeline-item">' +
+                            '<h4 class="timeline-title"><small class="timeline-meta">just now</small><i class="fa fa-file"></i> Status</h4>' +
+                            '<div class="timeline-content"><p>' + $('<div />').text(statusUpdateVal).html().substring(0, 200) + '</p><em>Demo functionality</em></div>' +
+                            '</div>' +
+                            '</li>');
+
+                        statusUpdate.val('').attr('placeholder', 'I hope you like it! :-)');
+                    }
+                });
+
+                /*
+                 * Flot 0.8.3 Jquery plugin is used for charts
+                 *
+                 * For more examples or getting extra plugins you can check http://www.flotcharts.org/
+                 * Plugins included in this template: pie, resize, stack
+                 */
+
+                // Get the elements where we will attach the charts
+                var chartClassic = $('#chart-classic');
+
+                // Random data for the charts
+                var dataEarnings = [[0, 60], [1, 100], [2, 80], [3, 84], [4, 124], [5, 90], [6, 150]];
+                var dataSales = [[0, 30], [1, 50], [2, 40], [3, 42], [4, 62], [5, 45], [6, 75]];
+
+                /* Classic Chart */
+                $.plot(chartClassic,
+                    [
+                        {
+                            data: dataEarnings,
+                            lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.25 }, { opacity: 0.25 }] } },
+                            points: { show: true, radius: 7 }
+                        },
+                        {
+                            data: dataSales,
+                            lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.15 }, { opacity: 0.15 }] } },
+                            points: { show: true, radius: 7 }
+                        }
+                    ],
+                    {
+                        colors: ['#f39c12', '#2e3030'],
+                        legend: { show: false },
+                        grid: { borderWidth: 0, hoverable: true, clickable: true },
+                        yaxis: { show: false },
+                        xaxis: { show: false }
+                    }
+                );
+
+                // Creating and attaching a tooltip to the classic chart
+                var previousPoint = null, ttlabel = null;
+                chartClassic.bind('plothover', function (event, pos, item) {
+
+                    if (item) {
+                        if (previousPoint !== item.dataIndex) {
+                            previousPoint = item.dataIndex;
+
+                            $('#chart-tooltip').remove();
+                            var x = item.datapoint[0], y = item.datapoint[1];
+
+                            if (item.seriesIndex === 1) {
+                                ttlabel = '<strong>' + y + '</strong> sales';
+                            } else {
+                                ttlabel = '$ <strong>' + y + '</strong>';
+                            }
+
+                            $('<div id="chart-tooltip" class="chart-tooltip">' + ttlabel + '</div>')
+                                .css({ top: item.pageY - 45, left: item.pageX + 5 }).appendTo("body").show();
+                        }
+                    }
+                    else {
+                        $('#chart-tooltip').remove();
+                        previousPoint = null;
+                    }
+                });
+            });
+        </script>
+    
+         </div>
 
 </asp:Content>

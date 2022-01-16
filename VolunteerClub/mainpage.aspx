@@ -22,7 +22,7 @@
 				<div class="block">
 					<span class="d-block mb-3 text-white text-capitalize">Volunteer for new future</span>
 					<h1 class="animated fadeInUp mb-5">Your valuable work <br>makes us <br>move forward.</h1>
-					<a href="#" target="-blank" class="btn btn-main animated fadeInUp btn-round-full" >Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
+					<a href="opportiunities.aspx" target="-blank" class="btn btn-main animated fadeInUp btn-round-full" >Volunteer Now<i class="btn-icon fa fa-angle-right ml-2"></i></a>
 				</div>
 			</div>
 		</div>
@@ -44,21 +44,21 @@
 				<div class="intro-item mb-5 mb-lg-0"> 
 					<i class="ti-desktop color-one"></i>
 					<h4 class="mt-4 mb-3">Volunteering dont need a lot of commitment</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<p>It is characterized by easy access to volunteers, as well as easy access to volunteer work through the always updated schedule of activities.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
 				<div class="intro-item mb-5 mb-lg-0">
 					<i class="ti-medall color-one"></i> 
 					<h4 class="mt-4 mb-3">People appreciated for their effort.</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<p>It has many opportunity options with different skills.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
 				<div class="intro-item">
 					<i class="ti-layers-alt color-one"></i>
 					<h4 class="mt-4 mb-3">Opportunities are open and easy to access.</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<p>The website has distinct volunteer options, such as volunteering from home from a distance, which was activated during the Corona pandemic.</p>
 				</div>
 			</div> 
 		</div>
@@ -67,20 +67,8 @@
 
 <!-- Section Intro END -->
  <!-- Section Cta Start --> 
- <section class="section cta">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6">
-				
-			</div>
-	
-			<div class="col-lg-6">
-				
-			</div>
-		</div>
-		
-	</div>
-</section>
+
+    
 <!--  Section Cta End-->
 
 <!-- Section Testimonial Start -->

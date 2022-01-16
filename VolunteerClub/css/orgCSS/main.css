@@ -11,7 +11,7 @@
  *      (#m05pgs) PAGES
  *      (#m06bos) BOOTSTRAP OVERWRITE/EXTEND STYLES
  *      (#m07hes) HELPERS
- *      (#m08res) RESPONSIVE
+ *      (#m08res) RESPONSIV
  *      (#m09rts) RETINA
  *      (#m10prs) PRINT
  */
@@ -30,7 +30,7 @@ body {
     color: #555555;
     font-size: 13px;
     background-image: url("/image/donate.jpg") top-left:repeat !important;
-    background-color: rgb(247, 220, 185);
+    background-color: #f39c12c9;
 }
 
 #login-container {
@@ -47,7 +47,7 @@ body {
     max-width: 1440px;
     padding: 50px 0 0;
     margin: 0 auto;
-
+    margin-top:2px;
 }
 
 .header-fixed-bottom #page-container {
@@ -366,9 +366,9 @@ header,
 .sidebar-header {
     margin: 15px 0 10px;
     padding: 0;
-    color: #888888;
-    font-size: 13px;
-    font-weight: normal;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -953,7 +953,7 @@ a[data-toggle="lightbox-image"]:hover img {
     padding: 50px 0;
     text-align: center;
     color: #ffffff;
-    background: #333333 url('../img/template/landing-blockquote-bg.jpg') no-repeat center center;
+    background: #333333 url('../../image/donate.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -1166,6 +1166,7 @@ ul.timeline {
 .wizard-steps .row > div.done,
 .wizard-steps .row > div.active {
     background-color: #f39c12;
+
     color: #ffffff;
 }
 
@@ -2387,6 +2388,7 @@ p {
 .row {
     margin-right: -5px;
     margin-left: -5px;
+    background-color: white;
 }
 
 .col-xs-1,

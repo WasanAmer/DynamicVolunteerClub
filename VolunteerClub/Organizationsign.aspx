@@ -24,7 +24,12 @@
 
         <!-- Modernizr (Browser feature detection library) & Respond.js (Enable responsive CSS code on browsers that don't support it, eg IE8) -->
     <script src="js/orgJS/vendor/modernizr-respond.min.js"></script>
-   
+    
+    <style>
+       .form-control{
+           border: solid orange;
+       }
+    </style>
    
 
 </asp:Content>
@@ -45,6 +50,7 @@
                 <div class="block-header">
                     <div class="header-section">
                         <h1 class="text-center">Welcome to VolunteerClub<br><small>Please Login or Register</small></h1>
+                        <h4 class="text-center">Rejester as <br><small><a href="Organizationsign.aspx"> Organization</a></small> or <small><a href="Usersign.aspx"> Volunteer</a></small> </h4>
                     </div>
                 </div>
                 <!-- END Login Title -->
@@ -53,7 +59,7 @@
                 <form action="#">
                     <ul class="nav nav-pills" >
 
-                         <li class="" style="width:50%"><a class="btn btn-lg btn-default" data-toggle="tab" href="/Usersign.aspx">Volunteer</a></li>
+                       <h3 class="text-center"><small> Organization</small></h3>
                        
                       </ul>
                     <br>
@@ -62,36 +68,36 @@
                     <form action="#">
                     
                       <div class="form-group">
-                        <label for="UserName">Organization Name</label>
-                        <input type="text" class="form-control" id="Orgnmae">
+                        <label for="UserName"><h4>Organization Name</h4></label>
+                        <input type="text" class="form-control" id="Orgnmae" required>
                       </div>
                       
                       <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control" id="Orgemail">
+                        <label for="email"><h4>Email address:</h4></label>
+                        <input type="email" class="form-control" id="Orgemail" required>
                       </div>
                     
                       <div class="form-group">
-                        <label for="pwd">Password:</label>
-                        <input type="password" class="form-control" id="Orgpass">
+                        <label for="pwd"><h4>Password:</h4></label>
+                        <input type="password" class="form-control" id="Orgpass" required>
                       </div>
                     
                       <div class="form-group">
-                        <label for="pwd">Confirm Password:</label>
-                        <input type="password" class="form-control" id="DublicatOrgpass">
+                        <label for="pwd"><h4>Confirm Password:</h4></label>
+                        <input type="password" class="form-control" id="DublicatOrgpass" required>
                       </div>
                     
                     
                     
-                      <button type="submit" class="btn btn-default">Register</button>
+                      <button type="submit" class="btn btn-default"><a href="organization.aspx">Register</a></button>
                     
-                      <button type="submit" class=" pull-right btn-link"><a href="www.google.com">Forget password</a></button>
+                      <button type="submit" class=" pull-right btn-link"><a href="#">Forget password</a></button>
                     
                     </form>
                     <br/>
                     <div class="form-group">
                         <div class="col-xs-12">
-                            <p class="text-center remove-margin"><small>Oops, you have an account?</small> <a href="/Sign.aspx"><small>Login!</small></a></p>
+                            <p class="text-center remove-margin"><small>Oops, you have an account?</small> <a href="/Login.aspx"><small>Login!</small></a></p>
                         </div>
                     </div>
                     

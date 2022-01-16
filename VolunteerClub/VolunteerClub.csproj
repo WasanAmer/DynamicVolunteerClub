@@ -124,6 +124,41 @@
     <Compile Include="Organizationsign.aspx.designer.cs">
       <DependentUpon>Organizationsign.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Creating-task.aspx.cs">
+      <DependentUpon>Creating-task.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Creating-task.aspx.designer.cs">
+      <DependentUpon>Creating-task.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="searchOppo.aspx.cs">
+      <DependentUpon>searchOppo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="searchOppo.aspx.designer.cs">
+      <DependentUpon>searchOppo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Timeline.aspx.cs">
+      <DependentUpon>Timeline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Timeline.aspx.designer.cs">
+      <DependentUpon>Timeline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RequestCenter.aspx.cs">
+      <DependentUpon>RequestCenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RequestCenter.aspx.designer.cs">
+      <DependentUpon>RequestCenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calender.aspx.cs">
+      <DependentUpon>Calender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calender.aspx.designer.cs">
+      <DependentUpon>Calender.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\costem.css" />
@@ -611,6 +646,11 @@
     <Content Include="organization.aspx" />
     <Content Include="Volunteer.aspx" />
     <Content Include="Organizationsign.aspx" />
+    <Content Include="Creating-task.aspx" />
+    <Content Include="searchOppo.aspx" />
+    <Content Include="Timeline.aspx" />
+    <Content Include="RequestCenter.aspx" />
+    <Content Include="Calender.aspx" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

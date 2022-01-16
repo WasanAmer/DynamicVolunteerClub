@@ -19,6 +19,12 @@
 
         <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
     <link href="css/orgCSS/themes.css" rel="stylesheet" />
+
+    <style>
+       .form-control{
+           border: solid orange;
+       }
+    </style>
     
         <!-- END Stylesheets -->
 
@@ -45,6 +51,7 @@
                 <div class="block-header">
                     <div class="header-section">
                         <h1 class="text-center">Welcome to VolunteerClub<br><small>Please Login or Register</small></h1>
+                        <h4 class="text-center">Register as <br><small><a href="Organizationsign.aspx"> Organization</a></small> or <small><a href="Usersign.aspx"> Volunteer</a></small> </h4>
                     </div>
                 </div>
                 <!-- END Login Title -->
@@ -53,8 +60,9 @@
                 <form action="#">
                     <ul class="nav nav-pills" >
 
-                         <li class="" style="width:50%"><a class="btn btn-lg btn-default" data-toggle="tab" href="#home">Volunteer</a></li>
-                       
+                       <h1 class="text-center"><small> Volunteer</small></h1>
+
+
                       </ul>
                     <br>
                       <div class="tab-content">
@@ -62,26 +70,26 @@
                     <form action="#">
                     
                       <div class="form-group">
-                        <label for="UserName">First-name</label>
-                        <input type="text" class="form-control" id="fname">
+                        <label for="UserName"><h4>First-name</h4></label>
+                        <input  type="text" class="form-control" id="fname" required>
                       </div>
                       <div class="form-group">
-                        <label for="UserName">Second-name</label>
-                        <input type="text" class="form-control" id="sname">
+                        <label for="UserName"><h4>Second-name</h4></label>
+                        <input type="text" class="form-control" id="sname" required>
                       </div>
                       
                       <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control" id="email">
+                        <label for="email"><h4>Email address:</h4></label>
+                        <input type="email" class="form-control" id="email" required>
                       </div>
                     
                       <div class="form-group">
-                        <label for="email">DOB:</label>
+                        <label for="email"><h4>DOB:</h4></label>
                         <input type="date" class="form-control" id="DOB">
                       </div>
 
                       <div class="form-group">
-                        <label for="Field">Choose You Field</label>
+                        <label for="Field"><h4>Choose You Field</h4></label>
                         <div class="Skills" style="width:200px;">
                             <select>
                               <option value="0">Field:</option>
@@ -96,28 +104,28 @@
                             
                             </select>
                           
-                         </div>
+                         </div> 
                       </div>
                     
                       <div class="form-group">
-                        <label for="pwd">Password:</label>
-                        <input type="password" class="form-control" id="pwd1">
+                        <label for="pwd"><h4>Password:</h4></label>
+                        <input type="password" class="form-control" id="pwd1" required>
                       </div>
                     
                       <div class="form-group">
-                        <label for="pwd">Confirm Password:</label>
-                        <input type="password" class="form-control" id="pwd2">
+                        <label for="pwd"><h4>Confirm Password:</h4></label>
+                        <input  type="password" class="form-control" id="pwd2" required>
                       </div>
                     
                     
                     
-                      <button type="submit" class="btn btn-default btn-lg">Register</button>
+                      <button type="submit" class="btn btn-default btn-lg"> <a href="Volunteer.aspx">Register</a></button>
                       <button type="submit" class=" pull-right btn-link"> <a href="www.google.com">Forget password</a></button>
                     
 
                       <div class="form-group">
                         <div class="col-xs-12">
-                            <p class="text-center remove-margin"><small>Oops, you have an account?</small> <a href="/Sign.aspx"><small>Login!</small></a></p>
+                            <p class="text-center remove-margin"><small>Oops, you have an account?</small> <a href="/Login.aspx"><small>Login!</small></a></p>
                         </div>
                     </div>
                     </form>
@@ -127,13 +135,14 @@
                     
                     
                     
-                </form>
+               </div>
+                   
                 <!-- END Register Form -->
 
                
 
               
-            </div>
+           
             <!-- END Page Content -->
         </div>
         <!-- END Login Container -->

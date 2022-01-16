@@ -31,7 +31,7 @@
 
            
              <div id="fx-container" class="fx-opacity">
-                <div class="containeer">
+                <div class="containeer" style="margin-top:5px">
                 <div class="col-md-2">
                     <div class="sidebar-left-scroll">
                         <!-- Sidebar Navigation -->
@@ -46,7 +46,7 @@
                                 <h2 class="sidebar-header">User Interface</h2>
                             </li>
                             <li>
-                                <a href="./RequestCenter.html" class="menu-link"><i class="fa fa-share"></i>Requests</a>
+                                <a href="RequestCenter.aspx" class="menu-link"><i class="fa fa-share"></i>Requests</a>
                                 
                             </li>
                             <li>
@@ -54,7 +54,7 @@
                               
                             </li>
                             <li>
-                                <a href="../organization/Tasks.html" class="menu-link"><i class="fa fa-pencil-square-o"></i>Tasks</a>
+                                <a href="Creating-task.aspx" class="menu-link"><i class="fa fa-pencil-square-o"></i>Tasks</a>
                                 
                             </li>
                            
@@ -64,16 +64,17 @@
                             
                 
                             <li>
-                                <a href="../organization/calender.html" class="menu-link"><i class="gi gi-charts"></i>Calender</a>
+                                <a href="Calender.aspx" class="menu-link"><i class="gi gi-charts"></i>Calender</a>
                                
                             </li>
                           
                             <li>
-                                <a href="../organization/timeline.html"><i class="fa fa-clock-o"></i>Timeline</a>
+                                <a href="#"><i class="fa fa-clock-o"></i>Timeline</a>
+                              
                             </li>
                             
                             <li>
-                                <a href="../organization/RequestCenter.html" class=" active"><i class="fa fa-envelope-o"></i>Message Center</a>
+                                <a href="RequestCenter.aspx" class=" active"><i class="fa fa-envelope-o"></i>Message Center</a>
                             </li>
                             <li>
                                 <a href="#" class="menu-link"><i class="fa fa-gear"></i>Settings</a>
@@ -210,7 +211,6 @@
                                                 <h4 class="timeline-title"><small class="timeline-meta">3 min ago</small><i class="fa fa-plus"></i> Friend Request</h4>
                                                 <div class="timeline-content">
                                                     <p class="clearfix">
-                                                        <img src="img/template/avatar.png" alt="avatar" class="img-circle pull-right">
                                                         <a href="page_special_user_profile.html">John</a> would like to become friends!
                                                     </p>
                                                     <a href="javascript:void(0)" class="btn btn-xs btn-success" id="accept-request"><i class="fa fa-check"></i> Accept</a>
@@ -230,8 +230,6 @@
                                                     <p>
                                                         <a href="page_special_user_profile.html">Michael</a> just uploaded an image in <a href="javascript:void(0)" class="btn btn-xs btn-primary">Secret Project</a>
                                                     </p>
-                                                    <a href="img/placeholders/image_720x450_dark.png" data-toggle="lightbox-image">
-                                                        <img src="img/placeholders/image_160x120_dark.png" alt="image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -280,7 +278,7 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="pie-chart block-section" data-percent="90" data-size="150">
-                                            <a href="../organization/Creatingtask.html">create </a>
+                                            <a href="/Creating-task.aspx">create </a>
 
                                         </div>
                                     </div>
@@ -312,7 +310,6 @@
 
                                 <!-- Extra Content -->
                                 <div class="content-text clearfix">
-                                    <img src="img/template/avatar2.jpg" alt="avatar" class="img-circle img-responsive pull-left">
                                     <h3 class="push"><a href="page_special_user_profile.html">John Doe</a> <small><em>750 Followers</em></small></h3>
                                     <a href="javascript:void(0)" class="btn btn-xs btn-success"><i class="fa fa-share"></i> Follow</a>
                                     <a href="javascript:void(0)" class="btn btn-xs btn-primary">Hire</a>
@@ -363,7 +360,6 @@
 
                                 <!-- Extra Content -->
                                 <div class="content-text clearfix">
-                                    <img src="img/template/avatar2.jpg" alt="avatar" class="img-circle img-responsive pull-left">
                                     <h3 class="push"><a href="page_special_user_profile.html">John Doe</a> <small><em>750 Followers</em></small></h3>
                                     <a href="javascript:void(0)" class="btn btn-xs btn-success"><i class="fa fa-share"></i> Follow</a>
                                     <a href="javascript:void(0)" class="btn btn-xs btn-primary">Hire</a>

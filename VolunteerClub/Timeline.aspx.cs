@@ -7,12 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace VolunteerClub
 {
-    public partial class WebForm3 : System.Web.UI.Page
+    public partial class WebForm10 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
     }
-
 }
