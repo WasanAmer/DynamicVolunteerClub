@@ -30,9 +30,7 @@
     
         <div id="page-container">
 
-           
-             <div id="fx-container" class="fx-opacity">
-               
+                         
                 <div class="col-md-2">
                     <div class="sidebar-left-scroll">
                         <!-- Sidebar Navigation -->
@@ -47,7 +45,7 @@
                                 <h2 class="sidebar-header">User Interface</h2>
                             </li>
                             <li>
-                                <a href="RequestCenter.aspx" class="menu-link"><i class="fa fa-share"></i>Requests</a>
+                                <a href="RequestCenter.aspx" class="menu-link"><i class="fa fa-share"></i>My Requests</a>
                                 
                             </li>
                             <li>
@@ -89,7 +87,7 @@
 
                 <div class="col-md-10">
                
- <div class="header-fixed-top">
+          <div class="header-fixed-top">
         <!-- Left Sidebar -->
         <!-- In the PHP version you can set the following options from the config file -->
        
@@ -116,7 +114,9 @@
                                 <!-- If you do not want a link in the header, instead of .header-title-link you can use a div with the class .header-section -->
                                 <a href="" class="header-title-link">
                                     <h1 class="profile-name">
-                                        John Doe <br><small>Web Designer</small>
+                                        <asp:Label ID="Label1" runat="server" Text="John Doe"></asp:Label>
+                                        <br>
+                                        <small>Web Designer</small>
                                     </h1>
                                 </a>
                             </div>
@@ -362,7 +362,7 @@
                
             </div>
         
-                    </div>
+                    
             <!-- END FX Container -->
         <!-- END Page Container -->
     </div>

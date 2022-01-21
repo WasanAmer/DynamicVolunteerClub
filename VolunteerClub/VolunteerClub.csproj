@@ -159,9 +159,30 @@
     <Compile Include="Calender.aspx.designer.cs">
       <DependentUpon>Calender.aspx</DependentUpon>
     </Compile>
+    <Compile Include="oppoindetails.aspx.cs">
+      <DependentUpon>oppoindetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oppoindetails.aspx.designer.cs">
+      <DependentUpon>oppoindetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VolunteerLogin.aspx.cs">
+      <DependentUpon>VolunteerLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VolunteerLogin.aspx.designer.cs">
+      <DependentUpon>VolunteerLogin.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\costem.css" />
+    <Content Include="image\category.ef85f6dd1.jpg" />
+    <Content Include="image\design.jpg" />
+    <Content Include="image\download.jpg" />
+    <Content Include="image\images.jpg" />
+    <Content Include="image\images.png" />
+    <Content Include="image\imagesss.jpg" />
+    <Content Include="image\layout.png" />
     <Content Include="other\.gitattributes" />
     <Content Include="other\about.html" />
     <Content Include="other\contact.html" />
@@ -651,8 +672,13 @@
     <Content Include="Timeline.aspx" />
     <Content Include="RequestCenter.aspx" />
     <Content Include="Calender.aspx" />
+    <Content Include="oppoindetails.aspx" />
+    <Content Include="VolunteerLogin.aspx" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="database\css\" />
+    <Folder Include="database\js\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="web.config" />
     <Content Include="css\maps\style.css.map" />

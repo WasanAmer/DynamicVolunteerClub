@@ -13,5 +13,16 @@ namespace VolunteerClub
         {
 
         }
+
+        protected void LinkButton2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Volunteer.aspx");
+            Response.Redirect("organization.aspx");
+        }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

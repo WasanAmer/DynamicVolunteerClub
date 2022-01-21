@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="VolunteerClub.WebForm3" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="VolunteerLogin.aspx.cs" Inherits="VolunteerClub.WebForm16" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
             <title>Sign In</title>
 
@@ -41,8 +41,8 @@
                             <div class="col">
                                 <center>
                                      <div class="header-section">
-                        <h1 class="text-center">Welcome to Volunteer Club<br><small>Please Login or Register <h3 style="color:orange">Organization</h3></small></h1>
-                    </div>
+                                      <h1 class="text-center">Welcome to Volunteer Club<br><small>Please Login or Register as  <h3 style="color:orange">Volunteer</h3></small></h1>
+                                       </div>
 
                                 </center>
 
@@ -53,7 +53,7 @@
                             <div class="col">
                                 
                                 <div class="col-xs-12">
-                                 <Label>Email</Label>
+                                 <Label> Volunteer Email</Label>
                                         <div class="form-form-group">
 
                                   <asp:TextBox   class="form-control input-lg" placeholder="Email"  ID="TextBox11" runat="server" required></asp:TextBox>
@@ -67,7 +67,7 @@
                                     <div class="col-xs-12">
                                     <Label>Password</Label>
                                         <div class="form-form-group">
-                                    <asp:TextBox  class="form-control input-lg" placeholder="Password"  ID="pass" runat="server" required TextMode="Password"></asp:TextBox>
+                                    <asp:TextBox   class="form-control input-lg" placeholder="Password"  ID="TextBox2" runat="server" required TextMode="Password"></asp:TextBox>
 			                   <br />
                                             </div>
                                 </div>
@@ -78,7 +78,7 @@
                                         <br
                                             />
                                         <br />
-			                <asp:Button  class="btn btn-sm btn-primary btn-block " ID="Button3" runat="server" Text="Login" />
+			                <asp:Button  class="btn btn-sm btn-primary btn-block " ID="Button3" runat="server" onclick="Button3_click" Text="Login" />
 
 		                        </div>
 
@@ -86,9 +86,9 @@
 
                         <div class="form-group">
 			<div class="col-xs-12">
-				<p class="text-center remove-margin"><small>Don't have an account?</small> 
-                    <a href="Organizationsign.aspx"> <center><h4>Create New Account !</h4></center></a>
-                    <a href="VolunteerLogin.aspx"> <center><h4>Volunteer Login</h4></center></a>
+				<p class="text-center remove-margin"><small>Don't have an account?</small> <a href="Usersign.aspx"> <center><h4>Create New Account !</h4></center></a>
+                                        <a href="Login.aspx"> <center><h4>Organization Login</h4></center></a>
+
                     </></p>
 			</div>
 		</div>                               
@@ -103,11 +103,7 @@
 
 
 
-        <div id="login-container">
-               
-	       
-
-        </div>
+       
 
         <!-- END Login Container -->
 
@@ -126,6 +122,7 @@
    
 
 </asp:Content>
+
 
 
 

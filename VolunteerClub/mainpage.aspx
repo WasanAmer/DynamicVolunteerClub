@@ -29,13 +29,12 @@
 	</div>
 </section>
 <!-- Section Intro Start -->
-
 <section class="section intro">
 	<div class="container">
 		<div class="row ">
 			<div class="col-lg-8">
 				<div class="section-title">
-					<h2 class="mt-3 content-title">Volunteer club features </h2>
+					<h2 class="mt-3 content-title"><center>Volunteer club features </center></h2>
 				</div>
 			</div>
 		</div>
@@ -67,10 +66,58 @@
 
 <!-- Section Intro END -->
  <!-- Section Cta Start --> 
+	<hr />
+	<br />
+	<div class="cont" style="background-color:#ffa50017">
+<h2 class="mt-3 content-title " style="color:orange">Voluntee Club Opportiunities </h2>
+	<br />
+	
 
+	<div class="container" style="">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+								<i class="fas fa-network-wired text-warning mb-4"></i>
+                                <h5>Network </h5>
+                                <p>Designing and implementing new network solutions and/or improving the efficiency of current networks.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+								<i class="fas fa-pencil-ruler text-warning mb-4"></i>
+                                <h5>Design</h5>
+                                <p>Using elements like typography, illustration, photography and layouts</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+								<i class="fas fa-server text-warning mb-4"></i>
+                                <h5> Website</h5>
+                                <p>use a variety of programming languages depending on your website's technology stack, including Python, PHP, and Ruby.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+                        <div class="service-item rounded pt-3">
+                            <div class="p-4">
+								<i class="fas fa-file-alt text-warning mb-4"></i>
+                                <h5>Documents</h5>
+                                <p>A documentation writer is responsible for communicating complex information in a clear and useful manner.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     
+		</div>
 <!--  Section Cta End-->
 
+	<hr />
 <!-- Section Testimonial Start -->
 <section class="section howitwork">
 	<div class="container">
@@ -173,7 +220,8 @@
 
 <section class="mt-70 position-relative">
 	<div class="container">
-	<div class="cta-block-2 bg-gray p-5 rounded border-1">
+	<div class="cta-block-2 bg-gray p-5 rounded border-1" style=" border: 1px solid #ff9500;
+ background: #ffc10714;">
 		<div class="row justify-content-center align-items-center ">
 			<div class="col-lg-7">
 				<span class="text-color">For all Type of Technolgy Tasks?</span>

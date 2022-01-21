@@ -28,6 +28,16 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+	<style>
+		.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #ff9500;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+	</style>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
    </asp:ContentPlaceHolder>
@@ -52,9 +62,10 @@
 		  	Volunteer<span> Club</span>
 		  </a>
 
+
+
 		  <button class="navbar-toggler collapsed" type="button"
 		   data-toggle="collapse" data-target="#navbarsExample09"
-		   
 		   aria-controls="navbarsExample09" aria-expanded="false" 
 		   aria-label="Toggle navigation">
 		  </button>
@@ -85,10 +96,11 @@
 			  <li class="nav-item"><a class="nav-link" href="/organization.aspx">Organizations</a></li>
 			</ul>
 
-			<form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
-			  <a href="Login.aspx" class="btn btn-solid-border btn-round-full">Sign in</a>
-			</form>
-		  </div>
+				<asp:LinkButton  class="btn btn-solid-border btn-round-full" ID="LinkButton1"  runat="server" OnClick="LinkButton1_Click"> SignIn</asp:LinkButton>
+		
+			  <asp:LinkButton  class="btn btn-solid-border btn-round-full"  ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" Visible="False">Logout</asp:LinkButton>
+		
+			  </div>
 		</div>
 	</nav>
 </header>
@@ -110,7 +122,7 @@
 <!-- footer Start -->
 <footer class="footer section">
 	<div class="container">
-		<div class="row">
+		<div class="row" style="background-color:white">
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="widget">
 					<h4 class="text-capitalize mb-4">Organization</h4>
@@ -137,15 +149,6 @@
 			</div>
 			
 
-			<div class="col-lg-3 ml-auto col-sm-6">
-				<div class="widget">
-					<div class="logo mb-4">
-						<h3>Volunteer<span> Club</span></h3>
-					</div>
-					<h6><a href="tel:+23-345-67890" >Support@Volunteer Club.com</a></h6>
-					<a href="mailto:support@gmail.com"><span class="text-color h4">+23-456-6588</span></a>
-				</div>
-			</div>
 		</div>
 		
 		<div class="footer-btm pt-4">
