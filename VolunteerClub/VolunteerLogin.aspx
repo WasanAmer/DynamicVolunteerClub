@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="VolunteerLogin.aspx.cs" Inherits="VolunteerClub.WebForm16" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-            <title>Sign In</title>
+            
+    
+    <title>Sign In</title>
 
      <title>Sign In</title>
         <!-- Stylesheets -->
@@ -75,8 +77,7 @@
                                 <br />
 
                                     <div class="form-group">
-                                        <br
-                                            />
+                                        <br/>
                                         <br />
 
 		                        </div>
