@@ -9,7 +9,7 @@
 
         <!-- Related styles of various icon packs and javascript plugins -->
     <link href="css/orgCSS/plugins.css" rel="stylesheet" />
-
+   
         <!-- The main stylesheet of this template. All Bootstrap overwrites are defined in here -->
     <link href="css/orgCSS/main.css" rel="stylesheet" />
 
@@ -78,7 +78,6 @@
                                         <br
                                             />
                                         <br />
-			                <asp:Button  class="btn btn-sm btn-primary btn-block " ID="Button3" runat="server" onclick="Button3_click" Text="Login" />
 
 		                        </div>
 
