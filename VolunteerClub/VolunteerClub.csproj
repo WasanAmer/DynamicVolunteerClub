@@ -176,6 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\costem.css" />
+    <Content Include="Index.html" />
     <Content Include="image\category.ef85f6dd1.jpg" />
     <Content Include="image\design.jpg" />
     <Content Include="image\download.jpg" />

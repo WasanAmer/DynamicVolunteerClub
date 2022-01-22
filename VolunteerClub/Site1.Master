@@ -96,9 +96,8 @@
 			  <li class="nav-item"><a class="nav-link" href="/organization.aspx">Organizations</a></li>
 			</ul>
 
-				<asp:LinkButton  class="btn btn-solid-border btn-round-full" ID="LinkButton1"  runat="server" OnClick="LinkButton1_Click"> SignIn</asp:LinkButton>
+				<asp:LinkButton  class="btn btn-solid-border btn-round-full" ID="LinkButton1"  runat="server" OnClick="LinkButton1_Click"> <a href="Usersign.aspx">SignIn</a></asp:LinkButton>
 		
-			  <asp:LinkButton  class="btn btn-solid-border btn-round-full"  ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" Visible="False">Logout</asp:LinkButton>
 		
 			  </div>
 		</div>
