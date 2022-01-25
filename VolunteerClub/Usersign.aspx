@@ -165,7 +165,7 @@
                                  <div class="form-group">
 			<div class="col-xs-12">
 				<p class="text-center remove-margin"><small>Already have an account?</small> 
-                    <a href="Organizationsign.aspx"> <center><h4> login to your Account !</h4></center></a>
+                    <a href="Organizationsign.aspx"> <center><h4> Register as Organization !</h4></center></a>
                     <a href="VolunteerLogin.aspx"> <center><h4>Volunteer Login</h4></center></a>
                     </></p>
 			</div>

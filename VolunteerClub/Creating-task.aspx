@@ -46,6 +46,34 @@
                     <li><a href=""></a>Tasks Center</li>
                 </ul>
                 <!-- END Components Header -->
+
+                <div class="card" style=""><div class="card-body"><h5 class="h4 card-title">Basic Information</h5> <p class="card-title-desc">Fill all information below</p> <form class=""><div class="row"><div class="col-sm-6"><div class="mb-3 mb-3"><label class="form-label">Product Name</label> <input id="productname" class="form-control form-control" type="text" name="productname" placeholder=""> </div> <div class="mb-3 mb-3"><label class="form-label">Manufacturer Name</label> <input id="manufacturername" class="form-control form-control" type="text" name="manufacturername" placeholder=""> </div> <div class="mb-3 mb-3"><label class="form-label">Manufacturer Brand</label> <input id="manufacturerbrand" class="form-control form-control" type="text" name="manufacturerbrand" placeholder=""> </div> <div class="mb-3 mb-3"><label class="form-label">Price</label> <input id="price" class="form-control form-control" type="text" name="price" placeholder=""> </div></div> <div class="col-sm-6"><div class="mb-3 mb-3"><label class="control-label form-label">Category</label> <div class="selectContainer svelte-17l1npl" style=""><span aria-live="polite" aria-atomic="false" aria-relevant="additions text" class="a11yText svelte-17l1npl"></span>   <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" placeholder="Select..." class="svelte-17l1npl" style="">      <input type="hidden" value="" class="svelte-17l1npl"> </div></div> <div class="select2-container mb-3 mb-3"><label class="control-label form-label">Features</label> <div class="selectContainer svelte-17l1npl multiSelect" style=""><span aria-live="polite" aria-atomic="false" aria-relevant="additions text" class="a11yText svelte-17l1npl"></span>   <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" placeholder="Choose ..." class="svelte-17l1npl" style="">      <input type="hidden" value="" class="svelte-17l1npl"> </div></div> <div class="mb-3 mb-3"><label class="form-label">Product Description</label> <textarea class="form-control" id="productdesc" rows="5"></textarea></div></div></div> <div class="d-flex flex-wrap gap-2"><button type="submit" class="btn btn-primary" value="" style="">Save Changes</button> <button type="submit" class="btn btn-secondary" value="" style="">Cancel</button></div></form></div></div>
+                <!-- Textareas and Editor Block -->
+                <div class="block">
+                    <!-- Textareas and Editor Title -->
+                    <div class="block-title">
+                        <h2><i class="fa fa-pencil"></i> Add Title to the task</h2>
+                      <div class="form-group">
+                            <div class="col-md-10">
+                                
+                            </div>
+                        </div>
+                        </div>
+                    <!-- END Dropzone Title -->
+                    <!-- END Dropzone Title -->
+                    
+
+                      
+                    <!-- END Textareas and Editor Title -->
+                    <!-- Textareas and Editor Content -->
+                    <form action="page_forms_components.html" method="post" class="form-horizontal" onsubmit="return false;">
+
+
+
+                    </form>
+                    <!-- END Textareas and Editor Content -->
+                </div>
+                <!-- END Textareas and Editor Block -->
                 <!-- Textareas and Editor Block -->
                 <div class="block">
                     <!-- Textareas and Editor Title -->

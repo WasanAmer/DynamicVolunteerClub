@@ -55,7 +55,7 @@
                             <div class="col-sm-6">
                                 <!-- If you do not want a link in the header, instead of .header-title-link you can use a div with the class .header-section -->
                                 <a href="" class="header-title-link">
-                                    <h1><i class="fa fa-envelope-o animation-expandUp"></i> Request Center<br><small>All your Request in order</small></h1>
+                                    <h1><i class="fa fa-envelope-o animation-expandUp"></i> Request Center<br><small>All The Request in order</small></h1>
                                 </a>
                             </div>
                             <div class="col-sm-6">
@@ -289,7 +289,6 @@
                                 <!-- Request Content -->
                                 <div class="ms-Request">
                                     <div class="clearfix">
-                                        <img src="img/template/avatar2.jpg" alt="avatar" class="img-circle pull-right">
                                         <h3>Request Title <small><br><a href="page_special_user_profile.html">John Doe</a></small></h3>
                                         <br><small><em>5 min ago</em></small>
                                     </div>

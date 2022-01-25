@@ -177,7 +177,6 @@
   <ItemGroup>
     <Content Include="css\costem.css" />
     <Content Include="Index.html" />
-    <Content Include="image\category.ef85f6dd1.jpg" />
     <Content Include="image\design.jpg" />
     <Content Include="image\download.jpg" />
     <Content Include="image\images.jpg" />
@@ -194,8 +193,6 @@
     <Content Include="js\contact.js" />
     <Content Include="js\script.js" />
     <Content Include="js\sign.js" />
-    <Content Include="Organization\organization\calender.html" />
-    <Content Include="Organization\organization\Creatingtask.html" />
     <Content Include="css\orgCSS\bootstrap.css" />
     <Content Include="css\orgCSS\fonts\fontawesome\fontawesome-webfont.svg" />
     <Content Include="css\orgCSS\fonts\Glyphicons PRO %28License%29.txt" />
@@ -515,10 +512,6 @@
     <Content Include="js\orgJS\vendor\bootstrap.min.js" />
     <Content Include="js\orgJS\vendor\jquery-1.11.1.min.js" />
     <Content Include="js\orgJS\vendor\modernizr-respond.min.js" />
-    <Content Include="Organization\organization\RequestCenter.html" />
-    <Content Include="Organization\organization\searchoppo.html" />
-    <Content Include="Organization\organization\Tasks.html" />
-    <Content Include="Organization\organization\timeline.html" />
     <Content Include="plugins\animate-css\animate.css" />
     <Content Include="plugins\bootstrap\css\bootstrap.min.css" />
     <Content Include="plugins\bootstrap\js\bootstrap.js" />
