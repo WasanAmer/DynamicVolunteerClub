@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>D:\GradPro\NewVCDynamic\DynamicVolunteerClub\VolunteerClub\bin\app.publish\volunteerclub</_PublishTargetUrl>
-    <History>False|2022-01-24T18:12:12.7965089Z;False|2022-01-24T21:42:37.5005184+04:00;False|2022-01-24T21:34:55.8563547+04:00;True|2022-01-24T16:37:14.6928923+04:00;</History>
+    <History>False|2022-01-25T04:34:22.5027220Z;False|2022-01-24T22:12:12.7965089+04:00;False|2022-01-24T21:42:37.5005184+04:00;False|2022-01-24T21:34:55.8563547+04:00;True|2022-01-24T16:37:14.6928923+04:00;</History>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEqoHsEiAyEeuyw/zE78/2QAAAAACAAAAAAAQZgAAAAEAACAAAABPPEA4fCQqPdqqsq3xp5flrjA3pxFrteG/ZltWCpGzjAAAAAAOgAAAAAIAACAAAADvrZ8+9cKrs+D1jrF6Ce+7P1Bj485IrTt8MQi3bDd7iyAAAADwhMC/pFhVyiVCWhmViWH9F5C8pqg7moY+G8F3mnPj6UAAAACQxKE59jN/IpUNKewnXmRe7b4f4sXDRSzXGGylNZ8ewmeyvBsv3fSxhqFGXLuMgwSGS9l96J5wkk3ISIV4U7TT</EncryptedPassword>
   </PropertyGroup>

@@ -128,6 +128,32 @@
     </div>
 
     <div class="containers">
+
+         <div class="card">
+            <div class="card-header">
+                <img src="image/design.jpg" />
+            </div>
+            <div class="card-body">
+                <span class="tag tag-pink">Design</span>
+                <h4> Design a User Dashboard
+                </h4>
+                <p>
+                    Dashboard Design Guidelines
+                </p>
+                <div class="form-group">
+                    <div class="row" " style=" background-color:white;" >
+                        <div class="col-md">
+                            <a href="Usersign.aspx"  class="btn btn-sm btn-primary btn-block "> Send Intrest</a>
+                        </div>
+                        <div class="col-md">
+                            <asp:Button class="btn btn-sm btn-primary btn-block " ID="Button6" runat="server" Text="Skip" />
+                        </div>
+                    </div>
+                    <br />
+
+                </div>
+            </div>
+        </div>
         <div class="card">
             <div class="card-header">
             </div>
@@ -183,31 +209,7 @@
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-header">
-                <img src="image/design.jpg" />
-            </div>
-            <div class="card-body">
-                <span class="tag tag-pink">Design</span>
-                <h4>10 Rules of Dashboard Design
-                </h4>
-                <p>
-                    Dashboard Design Guidelines
-                </p>
-                <div class="form-group">
-                    <div class="row" " style=" background-color:white;" >
-                        <div class="col-md">
-                            <asp:Button class="btn btn-sm btn-primary btn-block " ID="Button5" runat="server" Text="Send Intrest" />
-                        </div>
-                        <div class="col-md">
-                            <asp:Button class="btn btn-sm btn-primary btn-block " ID="Button6" runat="server" Text="Skip" />
-                        </div>
-                    </div>
-                    <br />
-
-                </div>
-            </div>
-        </div>
+       
 
     </div>
 

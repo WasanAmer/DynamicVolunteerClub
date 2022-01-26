@@ -58,10 +58,9 @@
 
                                             <!-- input tag -->
                 
-                                                <input type="search" id="site-search" name="q" aria-label="Search through site content">
 
 
-                                                <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Finf an opportunity you would like to volunteer for!">
+                                                <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Find an opportunity you would like to volunteer for!">
                                         </div>
                                         <!--end of col-->
                                         <div class="col-auto">

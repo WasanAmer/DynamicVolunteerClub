@@ -115,9 +115,9 @@
                                 <!-- If you do not want a link in the header, instead of .header-title-link you can use a div with the class .header-section -->
                                 <a href="" class="header-title-link">
                                     <h1 class="profile-name">
-                                        <asp:Label ID="Label1" runat="server" Text="John Doe"></asp:Label>
+                                        <asp:Label ID="Label1" runat="server" Text="Wasan Amer"></asp:Label>
                                         <br>
-                                        <small>Web Designer</small>
+                                        <small>Full- stack Developer</small>
                                     </h1>
                                 </a>
                             </div>
@@ -129,21 +129,21 @@
                                     <div class="col-xs-4">
                                         <a href="javascript:void(0)" class="header-link">
                                             <h1 class="animation-pullDown">
-                                                <strong>750</strong><br><small>My Points</small>
+                                                <strong>0</strong><br><small>My Points</small>
                                             </h1>
                                         </a>
                                     </div>
                                     <div class="col-xs-4">
                                         <a href="javascript:void(0)" class="header-link">
                                             <h1 class="animation-pullDown">
-                                                <strong>20</strong><br><small>My Tasks</small>
+                                                <strong>0</strong><br><small>My Tasks</small>
                                             </h1>
                                         </a>
                                     </div>
                                     <div class="col-xs-4">
                                         <a href="javascript:void(0)" class="header-link">
                                             <h1 class="animation-pullDown">
-                                                <strong>378</strong><br><small>Opportunities</small>
+                                                <strong>12</strong><br><small>Opportunities</small>
                                             </h1>
                                         </a>
                                     </div>
@@ -189,13 +189,7 @@
                                         <a href="javascript:void(0)" class="pull-left">
                                         </a>
                                         <div class="media-body">
-                                            <h6><span class="label label-default"><i class="fa fa-clock-o"></i> 3 hours ago</span></h6>
-                                            <p class="remove-margin">Aliquam tincidunt sollicitudin sem nec ultrices. Sed at mi velit. Ut egestas <a href="javascript:void(0)">tempor</a> est, in cursus enim venenatis eget! Nulla quis ligula ipsum. Maecenas ultrices, justo vel imperdiet gravida, urna ligula hendrerit nibh, ac cursus nibh sapien in purus. Mauris tincidunt tincidunt turpis in porta. Integer fermentum tincidunt auctor. Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate. </p>
-                                            <p>
-                                                <a href="javascript:void(0)" class="btn btn-xs btn-default disabled">2 comments</a>
-                                                <a href="javascript:void(0)" class="btn btn-xs btn-success" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-up"></i> 5</a>
-                                                <a href="javascript:void(0)" class="btn btn-xs btn-danger" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-down"></i></a>
-                                            </p>
+                                           
                                             <div class="media">
                                                 <a href="javascript:void(0)" class="pull-left">
                                                 </a>
@@ -227,9 +221,7 @@
                                         <a href="javascript:void(0)" class="pull-left">
                                         </a>
                                         <div class="media-body">
-                                            <h6><span class="label label-default"><i class="fa fa-clock-o"></i> Yesterday from mobile</span></h6>
-                                            <p class="remove-margin">Aliquam tincidunt sollicitudin sem nec ultrices. Proin rhoncus dui at ligula vestibulum ut facilisis ante sodales! Suspendisse potenti.</p>
-                                            <p>
+                                            
                                                 <a href="javascript:void(0)" class="btn btn-xs btn-success" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-up"></i></a>
                                                 <a href="javascript:void(0)" class="btn btn-xs btn-danger" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-down"></i></a>
                                             </p>
@@ -239,9 +231,7 @@
                                         <a href="javascript:void(0)" class="pull-left">
                                         </a>
                                         <div class="media-body">
-                                            <h6><span class="label label-default"><i class="fa fa-clock-o"></i> Yesterday</span></h6>
-                                            <p class="remove-margin">Aliquam tincidunt sollicitudin sem nec ultrices. Proin rhoncus dui at ligula vestibulum ut facilisis ante sodales! Suspendisse potenti.</p>
-                                            <p>
+                                            
                                                 <a href="javascript:void(0)" class="btn btn-xs btn-success" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-up"></i> 15</a>
                                                 <a href="javascript:void(0)" class="btn btn-xs btn-danger" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-down"></i> 1</a>
                                             </p>
@@ -251,9 +241,7 @@
                                         <a href="javascript:void(0)" class="pull-left">
                                         </a>
                                         <div class="media-body">
-                                            <h6><span class="label label-default"><i class="fa fa-clock-o"></i> 1 week ago from mobile</span></h6>
-                                            <p class="remove-margin">In hac habitasse platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend. Sed porttitor pretium venenatis. Suspendisse potenti. Aliquam quis ligula elit. Aliquam at orci ac neque semper dictum.</p>
-                                            <p>
+                                           
                                                 <a href="javascript:void(0)" class="btn btn-xs btn-success" data-toggle="tooltip" title="Like"><i class="fa fa-thumbs-up"></i></a>
                                                 <a href="javascript:void(0)" class="btn btn-xs btn-danger" data-toggle="tooltip" title="Dislike"><i class="fa fa-thumbs-down"></i></a>
                                             </p>
@@ -322,10 +310,6 @@
                                 </div>
                                 <!-- END About Title -->
 
-                                <!-- About Content -->
-                                <p>Donec lacinia venenatis metus at bibendum? In hac habitasse platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend. Sed porttitor pretium venenatis. Suspendisse potenti. Aliquam quis ligula elit. Aliquam at orci ac neque semper dictum. Sed tincidunt scelerisque ligula, et facilisis nulla hendrerit non. Suspendisse potenti. Pellentesque non accumsan orci. Praesent at lacinia dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <p>Sed tincidunt scelerisque ligula, et facilisis nulla hendrerit non. Suspendisse potenti. Pellentesque non accumsan orci.</p>
-                                <!-- END About Content -->
                             </div>
                             <!-- END About Block -->
 
